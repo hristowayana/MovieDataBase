@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movie Detail</title>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body  class="pushmenu-push">
+		<header>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="menu">
+							<nav class="pushmenu pushmenu-left">
+								<ul class="links">
+								    <li> <a href="../index.html" title="Home">Home</a> </li>
+								    <li> <a href="../all-movies/all-movies.html" title="Link 1">Movies</a> </li>
+								    <li> <a href="../search/search.html" title="search">Search</a> </li>
+								    <li> <a href="../user-profile/user-profile.html" title="user-profile">User Profile</a> </li>
+								    <li> <a href="../admin-profile/admin-profile.html" title="admin-profile">Admin</a> </li>
+							  	</ul>
+							</nav>
+
+							<div id="nav_list">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div>
+
+
+							<div class="logo">
+								<a href="../index.html">
+									<span id="fa-film-sp">
+										<i class="fa fa-film" aria-hidden="true"></i>
+									</span> 
+
+									<span id="nbu">NBU</span> 
+									<span id="movies">movies</span>
+								</a>
+							</div>
+
+							<div class="buttons">
+								<button class="btn rgr">
+									<a href="../registration-form/reg-form.html" title="Register">register</a>
+								</button>
+
+								<button class="btn lg">
+									<a href="../login/login.html" title="Login">login</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="movie-detail">
+							<button id="back" class="go-back" onclick="goBack()">
+								<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+								<span>Go Back</span>
+							</button>
+
+							<div class="detail">
+								<h3><span class="title">title:</span> <span>Fight Club </span> (2h.40min.)</h3>
+								<div class="buttons">
+									<button class="mark">Mark as watched</button>
+									<button class="add">Add to watch later</button>
+								</div>
+								<br>
+								<img src="assets/img/fight.jpg">
+
+								<div class="lines">
+									<div class="line-one">
+										<h4 class="genrge">genrge: <span>Action</span></h4>
+										<h4 class="rating">rating: <span>4/5</span></h4>
+									</div>
+
+									<div class="line-two">
+										<h4 class="director">director: <span>M.Sopov</span></h4>
+										<h4 class="actors">actors: <span>J.Smith, S.Robin...</span></h4>
+									</div>
+
+									<div class="line-three">
+										<h4 class="year">year: <span>2007</span></h4>
+										<h4 class="country">country: <span>US</span></h4>
+									</div>
+
+									<div class="line-four">
+										<h4 class="studio">studio: <span>Pro-Studio</span></h4>
+										<a href="#">Trailer Link</a>
+									</div>
+
+									<div class="line-five">
+										<h4 class="story">Story:</h4>
+										<p class="p-story">
+											An insomniac office worker, looking for a way to change his life,<br> crosses paths with a devil-may-care soapmaker,formaing an <br> underground fight club that evolves into something much,<br> much more.
+										</p>
+									</div>
+								</div>
+
+								<div class="rate">
+									<span>Rate it:</span>
+									<div class='rating-stars text-center'>
+										<ul id='stars'>
+											<li class='star' title='Poor' data-value='1'>
+												<i class='fa fa-star fa-fw'></i>
+											</li>
+											<li class='star' title='Fair' data-value='2'>
+												<i class='fa fa-star fa-fw'></i>
+											</li>
+											<li class='star' title='Good' data-value='3'>
+												<i class='fa fa-star fa-fw'></i>
+											</li>
+											<li class='star' title='Excellent' data-value='4'>
+												<i class='fa fa-star fa-fw'></i>
+											</li>
+											<li class='star' title='WOW!!!' data-value='5'>
+												<i class='fa fa-star fa-fw'></i>
+											</li>
+										</ul>
+									</div>
+								
+
+									<button class="share" id="share">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+										<span>SHARE</span>
+									</button>
+								</div>
+							</div>
+
+							<p>People who watched this movie also watched : <span> The Grey , Boys II men</span> </p>
+
+							<h2>Comments : 2</h2>
+							<div class="list-comments mm-box">
+								<div class="user">
+									<h4>user: <span>catboy</span></h4>
+									<img src="assets/img/catboy.png" class="catboy">
+									<span class="rating">rating: 3/5</span>
+								</div>
+
+								<div class="comment catboy-comment">
+									<h4>Comment:</h4>
+									<p>
+										Fight Club is one of the most unique films I have ever seen. In addition to <br> presenting a rather fresh take on life, FC also presents its material in a fresh <br> way. My main interest in the film is in that, in my opinion, it does not <br> present characters for us to think about.
+									</p>
+								</div>
+							</div>
+
+							<div class="list-comments mm-box">
+								<div class="user">
+									<h4>user: <span>catgirl</span></h4>
+									<img src="assets/img/catgirl.png" class="catgirl">
+									<span class="rating">rating: 4/5</span>
+								</div>
+
+								<div class="comment">
+									<h4>Comment:</h4>
+									<p>
+										It does not present characters for us to think about. Rather,it presents actions for us <br>to think about. I will say that i cannot recall *ever* having been "asked" by a film to both <br> suspend my disbelief the way this film asks in its third act AND at same time come <br>to terms with an understanding that there is no room-or need-for disbelief. 
+									</p>
+								</div>
+							</div>
+							
+							<button class="add-comment btn">Add Comment</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="footer">
+							<h4>Follow us</h4>
+
+							<div class="social-icons">
+								<a href="#">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-facebook-official" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/app.js"></script>
+	</body>
+</html>

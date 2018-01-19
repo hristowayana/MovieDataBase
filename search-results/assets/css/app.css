@@ -1,0 +1,27 @@
+@import url('bootstrap.css');
+@import url('reset.css');
+@import url('fonts.css');
+@import url('header.css');
+@import url('search-results.css');
+@import url('footer.css');
+
+
+/**General*/
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  	font-family: 'open_sansregular';
+	background-color: #F9F9FB;
+}
+
+body * {
+	text-shadow: none;
+}

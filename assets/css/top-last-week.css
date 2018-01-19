@@ -1,0 +1,249 @@
+.top-last-week h3 {
+	color: #294464;
+	font-size: 2em;
+	margin-left: 143px;
+	margin-top: 30px;
+	margin-bottom: 2px;
+}
+
+.top-last-week hr {
+	width: 80%;
+	height: 2px;
+	background: #F8A001;
+	margin: 0 auto;
+}
+
+.items {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 140px;
+}
+
+.items a {
+	text-decoration: none;
+	color: #294464;
+}
+
+.items .item {
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 232px;
+	max-height: 387px;
+	background: #fff;
+	padding: 15px;
+	margin-right: 15px;
+}
+
+.items .item:last-child {
+	margin-right: 0;
+}
+
+.items .item img {
+	max-width: 195px;
+	max-height: 260px;
+	margin-bottom: 7px;
+}
+
+.items .item h3 {
+	text-align: center;
+	color: #294464;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.items .item h4 {
+	text-align: center
+	color: #294464;
+	font-size: 0.9em;
+	font-weight: bold;
+	 margin-bottom: 15px;
+}
+
+.items .item h4 span {
+	color: #F8A001;
+}
+
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:1.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color: #FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color: #FFCC36;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.top-last-week h3 {
+		color: #294464;
+		font-size: 1em;
+		margin: 0 auto;
+		margin-left: 35px;
+		margin-top: 30px;
+		margin-bottom: 2px;
+	}
+
+	.top-last-week hr {
+		width: 80%;
+		height: 2px;
+		background: #F8A001;
+		margin: 0 auto;
+	}
+
+	.slider .items .item {
+		margin: 0 auto; 
+	}
+
+	.slider .items .item:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	.top-last-week h3 {
+		margin-left: 40px;
+	}
+
+	.top-last-week hr {
+		width: 80%;
+		height: 2px;
+		background: #F8A001;
+		margin: 0 auto;
+	}
+
+	.items .item { 
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.items .item:last-child {
+		margin-bottom: 0;
+	}
+
+	.rating-stars ul > li.star > i.fa {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+	.top-last-week h3 {
+		margin-left: 50px;
+	}
+
+	.top-last-week hr {
+		width: 80%;
+		height: 2px;
+		background: #F8A001;
+		margin: 0 auto;
+	}
+
+	.items .item { 
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.items .item:last-child {
+		margin-bottom: 0;
+	}
+
+	.rating-stars ul > li.star > i.fa {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) { 
+	.top-last-week h3 {
+		margin-left: 60px;
+	}
+
+	.top-last-week hr {
+		width: 80%;
+		height: 2px;
+		background: #F8A001;
+		margin: 0 auto;
+	}
+
+	.items .item { 
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.items .item:last-child {
+		margin-bottom: 0;
+	}
+
+	.rating-stars ul > li.star > i.fa {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {  
+	.top-last-week h3 {
+		margin-left: 70px;
+	}
+
+	.top-last-week hr {
+		width: 80%;
+		height: 2px;
+		background: #F8A001;
+		margin: 0 auto;
+	}
+
+	.items .item { 
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.items .item:last-child {
+		margin-bottom: 0;
+	}
+
+	.rating-stars ul > li.star > i.fa {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1050px;) {
+	.top-last-week h3 {
+		margin-left: 75px;
+	}
+
+	.top-last-week hr {
+		width: 80%;
+		height: 2px;
+		background: #F8A001;
+		margin: 0 auto;
+	}
+
+	.items .item { 
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.items .item:last-child {
+		margin-bottom: 0;
+	}
+}
+

@@ -1,0 +1,667 @@
+.search {
+	padding-top: 50px
+}
+
+.search h3 {
+	margin: 0 auto;
+	margin-bottom: 40px; 
+	text-align: center;
+	color: #294464;
+	font-size: 2em;
+	font-weight: 0;
+}
+
+.search .search-btn {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.search input[type="text"] {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 150px;
+	background: #fff;
+	width: 570px;
+	height: 55px;
+}
+
+.search .button {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+	border-radius: 150px;
+	border: 1px solid #F8A001;
+	background: #F8A001;
+	color: #fff;
+	font-size: 1.4em;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	padding-left: 65px;
+	color: #cfd3da;
+	font-size: 1.5em;
+}
+
+.search .dropbtn {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 620px;
+	width: 140px;
+	height: 25px;
+	background: #294464;
+	color: #fff;
+	font-size: 0.875em;
+	border: 1px solid #294464;
+	border-radius: 150px;
+	font-weight: bold;
+}
+
+.search .dropbtn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.search .dropbtn:hover, .dropbtn:focus {
+    background-color: #061b3d;
+}
+
+.filter {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.filter .one {
+	color: #7cc576;
+	font-size: 0.7em;
+	margin-right: 10px;
+}
+
+.filter .two {
+	color: #cc00ff;
+	font-size: 0.7em;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.filter .three {
+	color: #00ffcc;
+	font-size: 0.7em;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.filter .four {
+	color: #ff2a00;
+	font-size: 0.7em;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.filter	span {
+	color: #294464;
+	font-size: 1.1em;
+}
+
+.item {
+	display: block;
+	margin: 0 auto;
+	padding-left: 20px;
+	text-align: center;
+	background: #fff;
+	width: 80%;
+	height: 300px;
+}
+
+.item:last-child {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.item img {
+	display: inline-block;
+	float: left;
+	width: 180px;
+	height: 255px;
+	margin-right: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.item .lines {
+	margin-left: 25px;
+}
+
+.item .lines .title {
+	display: block;
+	padding-top: 20px;
+	text-align: left;
+	color: #2b2b2b;
+	font-size: 1em;
+}
+
+.item .lines .title span {
+	font-size: 1.2em;
+	color: #294464;
+}
+
+.item .line-one {
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.item .line-one .genrge {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 50px; 
+}
+
+.item .line-one .genrge span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.item .line-one .rating {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-left: 45px;
+}
+
+.item .line-one .rating span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.item .line-two {
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.item .line-two .director {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 35px;
+}
+
+.item .line-two .director span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.item .line-two .actors {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-left: 35px;
+}
+
+.item .line-two .actors span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.item .line-three {
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.item .line-three .year {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 60px;
+}
+
+.item .line-three .year span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.item .line-three .country {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-left: 65px;
+}
+
+.item .line-three .country span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.item .line-four {
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.item .line-four .story {
+	display: block;
+	font-size: 1.3em;
+	color: #2b2b2b;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+.item .line-four .p-story {
+	margin-left: 0;
+	margin-bottom: 15px;
+	color: #2b2b2b;
+}
+
+.item .read-more{
+	display: block;
+	float: right;
+	margin-right: 420px;
+} 
+
+.item .read-more a {
+	text-decoration: none;
+	color: #294464;
+	font-size: 1.3em;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 705px) {
+	.search h3 {
+		font-size: 1.2em;
+	}
+
+	.search input[type="text"] {
+		width: 65%;
+	}
+
+	::-webkit-input-placeholder { 
+		padding-left: 45px;
+		color: #cfd3da;
+		font-size: 1em;
+	}
+
+	.serach .button {
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		font-size: 1.5em;
+	}
+
+	.search .dropbtn {
+		display: block;
+		margin: auto;
+		margin-top: 15px;
+		text-align: center;	
+	}
+
+	.item {
+		width: 90%;
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.item img {
+		display: block;
+		margin: 0 auto;
+		padding-top: 20px;
+		float: none;
+	}
+
+	.item .lines {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.item .line-two {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-one .genrge {
+		margin-right: 20px;
+	}
+
+	.item .line-one .rating {
+		margin-left: 25px;
+	}
+
+	.item .line-two .director {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-right: 5px;
+	}
+
+	.item .line-two .actors {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 15px;
+	}
+
+	.item .line-three {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-three .year {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-right: 35px;
+	}
+
+	.item .line-three .country {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 40px;
+	}
+
+	.item .line-three .country span {
+		color: #294464;
+		font-size: 1.1em;
+		font-weight: bolder;
+	}
+
+	.item .line-four {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-four .story {
+		display: block;
+		font-size: 1.3em;
+		color: #2b2b2b;
+		font-weight: bolder;
+		margin-bottom: 10px;
+	}
+
+	.item .line-four .p-story {
+		margin-left: 0;
+		margin-bottom: 15px;
+		color: #2b2b2b;
+	}
+
+	.item .read-more{
+		display: block;
+		float: right;
+		margin-right: 50px;
+	} 
+
+	.item .read-more a {
+		text-decoration: none;
+		color: #294464;
+		font-size: 1.3em;
+		font-weight: bolder;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (min-width: 705px) and (max-width: 1000px) {
+	.search h3 {
+		font-size: 1.6em;
+	}
+
+	.search input[type="text"] {
+		width: 75%;
+	}
+
+	::-webkit-input-placeholder { 
+		padding-left: 65px;
+		color: #cfd3da;
+		font-size: 1.2em;
+	}
+
+	.search .button {
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		font-size: 1.2em;
+	}
+
+	.search .dropbtn {
+		display: block;
+		margin: auto;
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	.item {
+		width: 90%;
+		height: 300px;
+		padding-bottom: 40px;
+	}
+
+	.item img {
+		display: inline-block;
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-right: 20px;
+		float: left;
+	}
+
+	.item .line-two {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-one .genrge {
+		margin-right: 20px;
+	}
+
+	.item .line-one .rating {
+		margin-left: 25px;
+	}
+
+	.item .line-two .director {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-right: 5px;
+	}
+
+	.item .line-two .actors {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 15px;
+	}
+
+	.item .line-three {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-three .year {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-right: 35px;
+	}
+
+	.item .line-three .country {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 40px;
+	}
+
+	.item .line-three .country span {
+		color: #294464;
+		font-size: 1.1em;
+		font-weight: bolder;
+	}
+
+	.item .line-four {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-four .story {
+		display: block;
+		font-size: 1.3em;
+		color: #2b2b2b;
+		font-weight: bolder;
+		margin-bottom: 10px;
+	}
+
+	.item .line-four .p-story {
+		margin-left: 0;
+		margin-bottom: 15px;
+		color: #2b2b2b;
+	}
+
+	.item .read-more{
+		display: block;
+		float: right;
+		margin-right: 50px;
+	} 
+
+	.item .read-more a {
+		text-decoration: none;
+		color: #294464;
+		font-size: 1.3em;
+		font-weight: bolder;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) { 
+	.search h3 {
+		margin: 0 auto;
+		margin-bottom: 40px; 
+		text-align: center;
+		color: #294464;
+		font-size: 1.6em;
+	}
+
+	.search input[type="text"] {
+		width: 75%;
+	}
+
+	.search .button {
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		font-size: 1.5em;
+	}
+
+	.search .dropbtn {
+		display: block;
+		margin: auto;
+		margin-top: 15px;
+		text-align: center;	
+	}
+
+	.item {
+		width: 85%;
+		height: auto;
+	}
+
+		.item {
+		width: 90%;
+		height: 300px;
+		padding-bottom: 40px;
+	}
+
+	.item img {
+		display: inline-block;
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-right: 20px;
+		float: left;
+	}
+
+	.item .line-two {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-one .genrge {
+		margin-right: 20px;
+	}
+
+	.item .line-one .rating {
+		margin-left: 25px;
+	}
+
+	.item .line-two .director {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-right: 5px;
+	}
+
+	.item .line-two .actors {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 15px;
+	}
+
+	.item .line-three {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-three .year {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-right: 35px;
+	}
+
+	.item .line-three .country {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 40px;
+	}
+
+	.item .line-three .country span {
+		color: #294464;
+		font-size: 1.1em;
+		font-weight: bolder;
+	}
+
+	.item .line-four {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.item .line-four .story {
+		display: block;
+		font-size: 1.3em;
+		color: #2b2b2b;
+		font-weight: bolder;
+		margin-bottom: 10px;
+	}
+
+	.item .line-four .p-story {
+		margin-left: 0;
+		margin-bottom: 15px;
+		color: #2b2b2b;
+	}
+
+	.item .read-more{
+		display: block;
+		float: right;
+		margin-right: 50px;
+	} 
+
+	.item .read-more a {
+		text-decoration: none;
+		color: #294464;
+		font-size: 1.3em;
+		font-weight: bolder;
+		cursor: pointer;
+	}
+}
+

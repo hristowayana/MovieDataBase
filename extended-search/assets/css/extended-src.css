@@ -1,0 +1,163 @@
+.extended-search {
+	padding-top: 125px;
+	padding-bottom: 180px;
+}
+
+.extended-search h3 {
+	text-align: center;
+	color: #294464;
+	font-size: 1.8em;
+	margin-bottom: 50px;
+}
+
+.extended-search input[type="text"] {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 55px;
+	width: 670px;
+	height: 60px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 150px;
+}
+
+.extended-search .line-one {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.extended-search label {
+	color: #294464;
+	font-size: 1em;
+}
+
+.extended-search .select-wrapper select {
+	border: 1px solid #294464;
+	border-radius: 2px;
+	background: #294464;
+	color: #fff;
+	width: 225px;
+	height: 40px; 
+}
+
+.extended-search .line-two {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.extended-search .genrge {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.extended-search .actors {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.extended-search .directors {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.extended-search .country {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.extended-search h4 {
+	text-align: center;
+	color: #294464;
+	font-size: 1.2em;
+	margin-bottom: 25px;
+}
+
+.extended-search .search {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 250px;
+	height: 65px;
+	background: #f8a001;
+	color: #fff;
+	text-align: center;
+	font-size: 1.3em;
+	border: 1px solid #f8a001;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+::-webkit-input-placeholder { 
+		padding-left: 80px;
+		color: #e3e3e3;
+		font-size: 1.2em;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars {
+	text-align: center;
+}
+
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:1.7em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color: #FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color: #FFCC36;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+	.extended-search input[type="text"] {
+		width: 85%;
+	}
+
+	::-webkit-input-placeholder { 
+		padding-left: 55px;
+		color: #cfd3da;
+		font-size: 1.1em;
+	}
+
+	.extended-search .genrge {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.extended-search .actors {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.extended-search .directors {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.extended-search .country {
+		display: block;
+		margin: 0 auto;
+	}
+}

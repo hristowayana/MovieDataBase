@@ -1,0 +1,1396 @@
+.movie-detail {
+	padding-bottom: 105px;
+}
+
+.movie-detail .go-back {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 95px;
+	color: #294464;
+	font-size: 1.2em;
+	border: none;
+	background: #F9F9FB;
+}
+
+.movie-detail .detail {
+	display: block;
+	margin: 0 auto;
+	padding-left: 50px;
+	width: 85%;
+	height: 415px;
+	background: #fff;
+}
+
+.movie-detail .detail h3 {
+	display: inline-block;
+	color: #294464;
+	font-size: 1.1em;
+	margin-top: 15px;
+}
+
+.movie-detail .detail h3 .title {
+	color: #2b2b2b;
+	font-size: 1.1em;
+}
+
+.movie-detail .detail h3 span {
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .buttons {
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+	margin-right: 110px;	
+	margin-bottom: 15px;
+}
+
+.movie-detail .detail .mark {
+	display: inline-block;
+	cursor: pointer;
+	width: 155px;
+	height: 30px;
+	border-radius: 150px;
+	background: #a3dd73;
+	border: 1px solid #344e6c;
+	margin-right: 25px;
+}
+
+.movie-detail .detail .add {
+	display: inline-block;
+	cursor: pointer;
+	width: 155px;
+	height: 30px;
+	border-radius: 150px;
+	background: #df7da4;
+	border: 1px solid #344e6c;
+	margin-left: 25px;
+}
+
+.movie-detail .detail img {
+	display: inline-block;
+	width: 180px;
+	height: 250px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 45px;
+	margin-right: 45px;
+}
+
+.movie-detail .detail .lines {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.movie-detail .detail .line-one {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.movie-detail .detail .line-one .genrge {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 50px; 
+}
+
+.movie-detail .detail .line-one .genrge span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-one .rating {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-left: 45px;
+}
+
+.movie-detail .detail .line-one .rating span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-two {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.movie-detail .detail .line-two .director {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 35px;
+}
+
+.movie-detail .detail .line-two .director span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-two .actors {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-left: 35px;
+}
+
+.movie-detail .detail .line-two .actors span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-three {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.movie-detail .detail .line-three .year {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 60px;
+}
+
+.movie-detail .detail .line-three .year span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-three .country {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-left: 65px;
+}
+
+.movie-detail .detail .line-three .country span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-four {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.movie-detail .detail .line-four .studio {
+	display: inline-block;
+	color: #2b2b2b;
+	margin-right: 35px;
+}
+
+.movie-detail .detail .line-four .studio span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.movie-detail .detail .line-four a {
+	display: inline-block;
+	margin-left: 28px;
+	text-decoration: none;
+	color: #294464;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+.movie-detail .detail .line-five .story {
+	display: block;
+	font-size: 1.3em;
+	color: #2b2b2b;
+	font-weight: bolder;
+	margin-bottom: 
+}
+
+.movie-detail .detail .line-five .p-story {
+	margin-left: 0;
+	margin-bottom: 15px;
+	color: #294464;
+}
+
+.movie-detail .detail .rate {
+	display: block;
+	margin-left: 295px;
+}
+
+.movie-detail .detail .rate span {
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 1.2em;
+	color: #294464;
+}
+
+.movie-detail .detail .rate .rating-stars {
+	display: inline-block;
+	margin-right: 80px;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:1.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color: #FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color: #FFCC36;
+}
+
+.movie-detail .detail .rate .share {
+	display: inline-block;
+	background: #395b9a;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #395b9a;
+	border-radius: 150px;
+}
+
+.movie-detail .detail .rate .share i {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.movie-detail .detail .rate .share span {
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 7px;
+	color: #fff;
+	font-size: 0.8em;
+}
+
+.movie-detail p {
+	color: #294464;
+	font-size: 1.1em;
+	margin-top: 10px;
+	margin-left: 120px;
+	margin-bottom: 45px;
+}
+
+.movie-detail p span {
+	color: #294464;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.movie-detail h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #294464;
+	margin-bottom: 15px;
+	margin-left: 120px;
+}
+
+.movie-detail .list-comments {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding-left: 45px;
+	width: 85%;
+	height: 145px;
+	background: #fff;
+}
+
+.movie-detail .list-comments .user {
+	display: inline-block;
+	margin-right: 90px;
+	margin-top: 10px;
+	color: #294464;
+} 
+
+.movie-detail .list-comments .user .catboy {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	width: 45px;
+	height: 55px;
+	margin-left: 20px;
+}
+
+.movie-detail .list-comments .user .catgirl{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	width: 75px;
+	height: 75px;
+	margin-left: 10px;
+}
+
+.movie-detail .list-comments .user h4 {
+	display: block;
+	color: #294464;
+	margin-left: 5px;
+}
+
+.movie-detail .list-comments .user h4 span {
+	color: #294464;
+	font-weight: bolder;
+}
+
+.movie-detail .list-comments .user .rating {
+	display: block;
+	color: #294464;
+	margin-left: 8px;
+}
+
+.movie-detail .list-comments .comment {
+	display: inline-block;
+	color: #294464;
+	margin-top: 10px;
+}
+
+.movie-detail .list-comments .comment h4 {
+	margin-left: 120px;
+	font-size: 1.2em;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+
+.movie-detail .add-comment {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	background: #294464;
+	color: #fff;
+	border: 1px solid #294464;
+	border-radius: 150px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.movie-detail {
+		padding-bottom: 105px;
+	}
+
+	.movie-detail .go-back {
+		margin-left: 15px;	
+	}
+
+	.movie-detail .detail {
+		padding-left: 0;
+		padding-top: 10px;
+		width: 95%;
+		height: auto;
+	}
+
+	.movie-detail .detail h3 {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .detail h3 span {
+		font-size: 1.3em;
+	}
+
+	.movie-detail .detail .buttons {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+		margin-top: 15px;
+	}
+
+	.movie-detail .detail .mark {
+		display: inline-block;
+		font-size: 0.9em;
+		width: 115px;
+		height: 33px;
+		margin-right: 5px;
+	}
+
+	.movie-detail .detail .add {
+		display: inline-block;
+		font-size: 0.9em;
+		width: 115px;
+		height: 33px;
+		margin-left: 5px;
+	}
+
+	.movie-detail .detail img {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 180px;
+		height: 250px;
+		float: none;
+		margin-top: 45px;
+	}
+
+	.movie-detail .detail .lines {
+		display: inline-block;
+		margin-left: 0;
+	}
+
+	.movie-detail .detail .line-one {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .line-one .genrge {
+		margin-right: 20px; 
+	}
+
+	.movie-detail .detail .line-one .rating {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-two {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-two .director {
+		margin-right: 5px;
+	}
+
+	.movie-detail .detail .line-two .actors {
+		margin-left: 5px;
+	}
+
+	.movie-detail .detail .line-three {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-three .year {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .line-three .country {
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-four {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-four .studio {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .line-four a {
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-five .story {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .line-five .p-story {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+		margin-left: 30px;
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .rate {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .detail .rate span {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .rate .rating-stars {
+		margin-right: 10px;
+	}
+
+	.movie-detail .detail .rate .share {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail p {
+		font-size: 1em;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 45px;
+	}
+
+	.movie-detail h2 {
+		font-size: 1.2em;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 10px;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .list-comments {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 30px;
+		width: 95%;
+		height: auto;
+		background: #fff;
+	}
+
+	.movie-detail .list-comments .user {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	} 
+
+	.movie-detail .list-comments .user .catboy {
+		margin-left: 0px;
+	}
+
+	.movie-detail .list-comments .user .catgirl{
+		margin-left: 0;
+	}
+
+	.movie-detail .list-comments .user h4 {
+		margin-left: 5px;
+	}
+
+	.movie-detail .list-comments .comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .list-comments .comment h4 {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		float: none;
+	}
+
+	.movie-detail .list-comments .comment p {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+		margin-left: 0;
+	}
+
+	.movie-detail .add-comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		background: #294464;
+		color: #fff;
+		border: 1px solid #294464;
+		border-radius: 150px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+	.movie-detail {
+		padding-bottom: 105px;
+	}
+
+	.movie-detail .go-back {
+		margin-left: 15px;	
+	}
+
+	.movie-detail .detail {
+		padding-left: 0;
+		padding-top: 10px;
+		width: 95%;
+		height: auto;
+	}
+
+	.movie-detail .detail h3 {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .detail h3 span {
+		font-size: 1.3em;
+	}
+
+	.movie-detail .detail .buttons {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+		margin-top: 15px;
+	}
+
+	.movie-detail .detail .mark {
+		display: inline-block;
+		font-size: 0.9em;
+		width: 115px;
+		height: 33px;
+		margin-right: 5px;
+	}
+
+	.movie-detail .detail .add {
+		display: inline-block;
+		font-size: 0.9em;
+		width: 115px;
+		height: 33px;
+		margin-left: 5px;
+	}
+
+	.movie-detail .detail img {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 180px;
+		height: 250px;
+		float: none;
+		margin-top: 45px;
+	}
+
+	.movie-detail .detail .lines {
+		display: block;
+		margin-left: 0;
+	}
+
+	.movie-detail .detail .line-one {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .line-one .genrge {
+		margin-right: 20px; 
+	}
+
+	.movie-detail .detail .line-one .rating {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-two {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-two .director {
+		margin-right: 5px;
+	}
+
+	.movie-detail .detail .line-two .actors {
+		margin-left: 5px;
+	}
+
+	.movie-detail .detail .line-three {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-three .year {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .line-three .country {
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-four {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-four .studio {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .line-four a {
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-five .story {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .line-five .p-story {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .rate {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .detail .rate span {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .rate .rating-stars {
+		margin-right: 10px;
+	}
+
+	.movie-detail .detail .rate .share {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail p {
+		font-size: 1em;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 10px;
+		margin-bottom: 45px;
+	}
+
+	.movie-detail h2 {
+		font-size: 1.2em;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 10px;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .list-comments {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		width: 95%;
+		height: auto;
+		background: #fff;
+	}
+
+	.movie-detail .list-comments .user {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	} 
+
+	.movie-detail .list-comments .user .catboy {
+		margin-left: 0px;
+	}
+
+	.movie-detail .list-comments .user .catgirl{
+		margin-left: 0;
+	}
+
+	.movie-detail .list-comments .user h4 {
+		margin-left: 5px;
+	}
+
+	.movie-detail .list-comments .comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .list-comments .comment h4 {
+		margin: 0 auto;
+		text-align: center;
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.movie-detail .list-comments .comment p {
+		text-align: center;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .add-comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		background: #294464;
+		color: #fff;
+		border: 1px solid #294464;
+		border-radius: 150px;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+	.movie-detail {
+		padding-bottom: 105px;
+	}
+
+	.movie-detail .go-back {
+		margin-left: 25px;	
+	}
+
+	.movie-detail .detail {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 0;
+		width: 95%;
+		height: auto;
+	}
+
+	.movie-detail .detail h3 {
+		display: inline-block;
+		margin: 0 auto;
+		float: left;
+		margin-top: 20px;
+	}
+
+	.movie-detail .detail h3 span {
+		font-size: 1.3em;
+	}
+
+	.movie-detail .detail .buttons {
+		display: inline-block;
+		margin: 0 auto;
+		float: right;
+		margin-top: 15px;
+	}
+
+	.movie-detail .detail .mark {
+		display: inline-block;
+		font-size: 0.9em;
+		width: 125px;
+		height: 35px;
+		margin-right: 5px;
+	}
+
+	.movie-detail .detail .add {
+		display: inline-block;
+		font-size: 0.9em;
+		width: 115px;
+		height: 33px;
+		margin-left: 5px;
+	}
+
+	.movie-detail .detail img {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 180px;
+		height: 250px;
+		float: none;
+		margin-top: 55px;
+	}
+
+	.movie-detail .detail .lines {
+		display: block;
+		margin-left: 0;
+	}
+
+	.movie-detail .detail .line-one {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .line-one .genrge {
+		margin-right: 20px; 
+	}
+
+	.movie-detail .detail .line-one .rating {
+		display: inline-block;
+		color: #2b2b2b;
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-two {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-two .director {
+		margin-right: 5px;
+	}
+
+	.movie-detail .detail .line-two .actors {
+		margin-left: 5px;
+	}
+
+	.movie-detail .detail .line-three {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-three .year {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .line-three .country {
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-four {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail .detail .line-four .studio {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .line-four a {
+		margin-left: 20px;
+	}
+
+	.movie-detail .detail .line-five .story {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .line-five .p-story {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail .rate {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.movie-detail .detail .rate span {
+		margin-right: 20px;
+	}
+
+	.movie-detail .detail .rate .rating-stars {
+		margin-right: 10px;
+	}
+
+	.movie-detail .detail .rate .share {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.movie-detail p {
+		font-size: 1em;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 45px;
+	}
+
+	.movie-detail h2 {
+		font-size: 1.2em;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 10px;
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .list-comments {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+		padding-left: 20px;
+		padding-top: 15px;
+		width: 95%;
+		height: auto;
+		background: #fff;
+	}
+
+	.movie-detail .list-comments .user {
+		display: inline-block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 25px;
+	} 
+
+	.movie-detail .list-comments .user .catboy {
+		margin-left: 0;
+	}
+
+	.movie-detail .list-comments .user .catgirl{
+		margin-left: 0;
+	}
+
+	.movie-detail .list-comments .user h4 {
+		margin-left: 5px;
+	}
+
+	.movie-detail .list-comments .comment {
+		display: inline-block;
+		margin: 0 auto;
+		margin-left: 0;
+		margin-top: 20px;
+		float: inherit;
+	}
+
+	.movie-detail .list-comments .comment h4 {
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	.movie-detail .list-comments .comment p {
+		display: block;
+		text-align: left;
+		margin-left: 10px;
+		font-size: 0.8em;
+	}
+
+	.movie-detail .add-comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		background: #294464;
+		color: #fff;
+		border: 1px solid #294464;
+		border-radius: 150px;
+	}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+	.movie-detail {
+		padding-bottom: 105px;
+	}
+
+	.movie-detail .go-back {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 25px;
+		color: #294464;
+		font-size: 1.2em;
+		border: none;
+		background: #F9F9FB;
+	}
+
+	.movie-detail .detail {
+		display: block;
+		margin: 0 auto;
+		padding-left: 50px;
+		padding-bottom: 30px;
+		width: 95%;
+		height: auto;
+		background: #fff;
+	}
+
+	.movie-detail .detail .buttons {
+		display: inline-block;
+		float: right;
+		margin-top: 15px;
+		margin-right: 50px;	
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail img {
+		display: inline-block;
+		width: 180px;
+		height: 250px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 45px;
+		margin-right: 25px;
+	}
+
+	.movie-detail .detail .lines {
+		display: inline-block;
+		margin-left: 25px;
+	}
+
+	.movie-detail .detail .rate {
+		display: block;
+		margin-left: 255px;
+	}
+
+	.movie-detail p {
+		margin-left: 50px;
+	}
+
+	.movie-detail h2 {
+		font-size: 1.3em;
+		margin-left: 50px;
+	}
+
+	.movie-detail .list-comments {
+		width: 95%;
+		height: auto;
+	}
+
+	.movie-detail .list-comments .user {
+		display: inline-block;
+		margin-right: 30px;
+		margin-top: 10px;
+		color: #294464;
+	} 
+
+	.movie-detail .list-comments .user .catboy {
+		margin-top: 7px;
+		margin-bottom: 7px;
+		width: 45px;
+		height: 55px;
+		margin-left: 20px;
+	}
+
+	.movie-detail .list-comments .user .catgirl{
+		margin-top: 7px;
+		margin-bottom: 7px;
+		width: 75px;
+		height: 75px;
+		margin-left: 10px;
+	}
+
+	.movie-detail .list-comments .user h4 {
+		display: block;
+		color: #294464;
+		margin-left: 5px;
+	}
+
+	.movie-detail .list-comments .user h4 span {
+		color: #294464;
+		font-weight: bolder;
+	}
+
+	.movie-detail .list-comments .user .rating {
+		display: block;
+		color: #294464;
+		margin-left: 8px;
+	}
+
+	.movie-detail .list-comments .comment {
+		display: inline-block;
+		color: #294464;
+		margin-top: 10px;
+	}
+
+	.movie-detail .list-comments .comment h4 {
+		margin-left: 0;
+		font-size: 1.2em;
+		font-weight: bolder;
+		margin-top: 10px;
+	}
+
+	.movie-detail .list-comments .comment p {
+		display: inline-block;
+		margin-left: 0;
+		font-size: 0.8em;
+	}
+
+	.movie-detail .add-comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		background: #294464;
+		color: #fff;
+		border: 1px solid #294464;
+		border-radius: 150px;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.movie-detail {
+		padding-bottom: 105px;
+	}
+
+	.movie-detail .go-back {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 25px;
+		color: #294464;
+		font-size: 1.2em;
+		border: none;
+		background: #F9F9FB;
+	}
+
+	.movie-detail .detail {
+		display: block;
+		margin: 0 auto;
+		padding-left: 50px;
+		padding-bottom: 30px;
+		width: 95%;
+		height: auto;
+		background: #fff;
+	}
+
+	.movie-detail .detail .buttons {
+		display: inline-block;
+		float: right;
+		margin-top: 15px;
+		margin-right: 50px;	
+		margin-bottom: 15px;
+	}
+
+	.movie-detail .detail img {
+		display: inline-block;
+		width: 180px;
+		height: 250px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 45px;
+		margin-right: 25px;
+	}
+
+	.movie-detail .detail .lines {
+		display: inline-block;
+		margin-left: 25px;
+	}
+
+	.movie-detail .detail .rate {
+		display: block;
+		margin-left: 255px;
+	}
+
+	.movie-detail p {
+		margin-left: 50px;
+	}
+
+	.movie-detail h2 {
+		font-size: 1.3em;
+		margin-left: 50px;
+	}
+
+	.movie-detail .list-comments {
+		width: 95%;
+		height: auto;
+	}
+
+	.movie-detail .list-comments .user {
+		display: inline-block;
+		margin-right: 30px;
+		margin-top: 10px;
+		color: #294464;
+	} 
+
+	.movie-detail .list-comments .user .catboy {
+		margin-top: 7px;
+		margin-bottom: 7px;
+		width: 45px;
+		height: 55px;
+		margin-left: 20px;
+	}
+
+	.movie-detail .list-comments .user .catgirl{
+		margin-top: 7px;
+		margin-bottom: 7px;
+		width: 75px;
+		height: 75px;
+		margin-left: 10px;
+	}
+
+	.movie-detail .list-comments .user h4 {
+		display: block;
+		color: #294464;
+		margin-left: 5px;
+	}
+
+	.movie-detail .list-comments .user h4 span {
+		color: #294464;
+		font-weight: bolder;
+	}
+
+	.movie-detail .list-comments .user .rating {
+		display: block;
+		color: #294464;
+		margin-left: 8px;
+	}
+
+	.movie-detail .list-comments .comment {
+		display: inline-block;
+		color: #294464;
+		margin-top: 10px;
+	}
+
+	.movie-detail .list-comments .comment h4 {
+		margin-left: 0;
+		font-size: 1.2em;
+		font-weight: bolder;
+		margin-top: 10px;
+	}
+
+	.movie-detail .list-comments .comment p {
+		display: inline-block;
+		margin-left: 0;
+		font-size: 1em;
+	}
+
+	.movie-detail .add-comment {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		background: #294464;
+		color: #fff;
+		border: 1px solid #294464;
+		border-radius: 150px;
+	}
+}
+

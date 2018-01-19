@@ -1,0 +1,27 @@
+footer {
+	width: 100%;
+	background: #294464; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.footer h4 {
+	color: #fff;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer .social-icons {
+	text-align: center;
+}
+
+.footer .social-icons a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+}
